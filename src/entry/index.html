@@ -1,0 +1,40 @@
+<!--
+ * @Author: ChenYu
+ * @LastEditors: ChenYu
+ * @Date: 2022-07-29 15:01:38
+ * @LastEditTime: 2022-07-29 15:52:13
+ * @Description: 重启·西藏之旅
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TIBET</title>
+  <link rel="icon" href="../static/icon/mountain.svg">
+  <link rel="stylesheet" href="../style/common.css">
+  <link rel="stylesheet" href="../style/map.css">
+  <link rel="stylesheet" href="../style/stepOne.css">
+  <!-- 动画库 https://github.com/dixonandmoe/rellax -->
+  <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+  <!-- 打字动画库 https://github.com/mattboldt/typed.js/ -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+  <div class="restart-tibet-container">
+    <div class="step-one-container"></div>
+    <!-- <div class="element"></div> -->
+  </div>
+</body>
+<!-- 第一页(欢迎页) -->
+<script src="../js/stepOne.js"></script>
+<script>
+  new NewStepOne({
+    ele:'.step-one-container'
+  })
+</script>
+
+</html>
